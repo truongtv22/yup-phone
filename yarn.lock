@@ -1223,10 +1223,10 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
-"@types/google-libphonenumber@^7.4.17":
-  version "7.4.17"
-  resolved "https://registry.yarnpkg.com/@types/google-libphonenumber/-/google-libphonenumber-7.4.17.tgz#26974213353cb459e403a5740812115a596cf170"
-  integrity sha512-NdqFHXBGxwiGjJn7dTAjcCckgxE+LbE3jik6/SNiC9ZfG4BxHJM1X6m8w+/ZpSGRN5s0+4dIL+MaD/KSXywp1g==
+"@types/google-libphonenumber@^7.4.18":
+  version "7.4.18"
+  resolved "https://registry.yarnpkg.com/@types/google-libphonenumber/-/google-libphonenumber-7.4.18.tgz#8066e2fa505c1e5490ea3524cb8ae4ac693d77c2"
+  integrity sha512-sXkLBpseVM5YeUwvxGjb2lkowZlSqazBnETiRSlvIWHw9ZOe0sTJiYzOSfSf40LQzEv/q5c8dvrH0rNOJFuxkw==
 
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.1"
