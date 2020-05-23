@@ -3482,6 +3482,11 @@ fsevents@^1.2.7:
     nan "^2.12.1"
     node-pre-gyp "^0.12.0"
 
+fsevents@~2.1.2:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.1.3.tgz#fb738703ae8d2f9fe900c33836ddebee8b97f23e"
+  integrity sha512-Auw9a4AxqWpa9GUfj370BMPzzyncfBABW8Mab7BGWBYDj4Isgq+cDKtx0i6u9jcX9pQDnswsaaOTgTmA5pEjuQ==
+
 function-bind@^1.0.2, function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
@@ -7363,7 +7368,7 @@ rollup-pluginutils@^2.8.1:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@*, rollup@^1.20.3:
+rollup@*:
   version "1.20.3"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-1.20.3.tgz#6243f6c118ca05f56b2d9433112400cd834a1eb8"
   integrity sha512-/OMCkY0c6E8tleeVm4vQVDz24CkVgvueK3r8zTYu2AQNpjrcaPwO9hE+pWj5LTFrvvkaxt4MYIp2zha4y0lRvg==
@@ -7371,6 +7376,13 @@ rollup@*, rollup@^1.20.3:
     "@types/estree" "0.0.39"
     "@types/node" "^12.7.2"
     acorn "^7.0.0"
+
+rollup@^2.10.8:
+  version "2.10.8"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.10.8.tgz#ae7d341096aa81b352b1eb13912d775ec1913f5c"
+  integrity sha512-lbowcWxla8CNBNvCVnmZnoZzugM1g9yd7fd7oc5eWIdI4wECzpIpEJLBoeD+9UITwnnt1X3b9bt7gdZHC+rRAg==
+  optionalDependencies:
+    fsevents "~2.1.2"
 
 rsvp@^4.8.4:
   version "4.8.5"
